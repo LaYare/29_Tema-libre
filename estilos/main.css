@@ -39,6 +39,10 @@ button:hover{
 	height: 25.5em;
 }
 .trans:hover{
-	-webkit-transform: translate(-2em);
+	-webkit-transform: translateY(-2em);
     -webkit-transition: .8s;
+}
+footer{
+	padding: 2%;
+	background-color: #0B0B0B;
 }
