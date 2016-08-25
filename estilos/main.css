@@ -19,8 +19,22 @@ button{
 	border-radius: 5em;
 	background-color: #3190FB;
 	color: white !important;
+	width: 100%;
+	margin-bottom: 5%;
 }
 button:hover{
 	border: 1px solid #3190FB;
 	background-color: #000000;
+}
+.rot:hover{
+    -webkit-transform: rotateZ(360deg);
+    -webkit-transition: .8s;
+}
+.scal:hover{
+	-webkit-transform: scale(1.1);
+    -webkit-transition: .8s;
+     transform: scale(1.1);
+}
+.form{
+	height: 25.5em;
 }
