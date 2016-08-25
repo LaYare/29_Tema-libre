@@ -1,1 +1,26 @@
-main.css
+*{
+	font-family: 'Varela Ronda', sans-serif !important;
+}
+body{
+	background-image: url("../img/gi.gif");
+	color: white;
+}
+.mgt{
+	margin-top: 7%;
+}
+iframe{
+	width: 100%;
+	height: 30em;
+	border: none;
+}
+button{
+	padding: 1em 4em;
+	border: none;
+	border-radius: 5em;
+	background-color: #3190FB;
+	color: white !important;
+}
+button:hover{
+	border: 1px solid #3190FB;
+	background-color: #000000;
+}

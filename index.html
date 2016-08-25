@@ -4,16 +4,16 @@
 	<meta charset="UTF-8">
 	<title>Tema libre</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="estilos/main.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
+	<link rel="stylesheet" href="estilos/main.css">
+	<link href = "https://fonts.googleapis.com/css?family= Varela + Ciclo " rel = "stylesheet">
 </head>
-<body>
+<body id="gif">
 	<div class="container"><!--container-->
 		<header>
 			<div class="row">
 				<div class="col-sm-12 col-md-12">
-						<nav class="navbar navbar-default navbar-fixed-top">
+						<nav class="navbar navbar-inverse navbar-fixed-top">
 							<div class="container">
 								<div class="navbar-header"><!--aqui esta el boton-->
 									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegador">
@@ -39,6 +39,45 @@
 					</div>
 			</div>
 		</header>
+		<section class="mgt">
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+					<iframe src="https://www.youtube.com/embed/4gch7gnnRRs"></iframe>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-justify">
+					<p>En el video se muestra el manejo de la grid y los distintos tamaños que bootstrap maneja para las columnas ya sea para celular, tablet y escitorio, al igual que algunos de sus componentes bastante interesantes y utiles, como lo son los botones, los diferentes tipos de navegadores pedeterminados, estilos de encabezados y algunos colores que ya trae por defecto. </p>
+					<p class="mgt">Otra de las grandes ventajas de este tutorial es que te enseña las maneras en las que se puede "instlar" bootstrap y como se linkea al index tanto el bootstrap como jquery y cual es la mejor manera de hacerlo, y la mas eficiente para que la tu página cargue más rapido.</p>
+					<a href="http://getbootstrap.com/" target="blank">
+						<button type="button" class="bot mgt">
+							CONOCER MÁS SOBRE BOOTSTRAP
+						</button>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="mgt">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+					<img src="img/desktop.jpg" alt="Desktop" title="Escritorio" class="img-responsive">
+					<h4 class="text-center">class:"col-lg-"</h4>
+					<p class="text-justify">Esta clase se utiliza para dispositivos grandes, en computadoras con una resolución de ≥1200px, si quieres saber más da clik <a href="http://getbootstrap.com/css/#grid-options" target="blank">aquí.</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+					<img src="img/laptop.jpg" alt="Laptop" title="Laptop" class="img-responsive">
+					<h4 class="text-center">class:"col-md-"</h4>
+					<p class="text-justify">Esta clase se utiliza para dispositivos medianos, laptops u ordenadores con resolución de ≥992px, si quieres saber más da clik <a href="http://getbootstrap.com/css/#grid-options" target="blank">aquí</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+					<img src="img/tablet.jpg" alt="Tablet" title="Tablet" class="img-responsive"><h4 class="text-center">class:"col-ms-"</h4>
+					<p class="text-justify">Esta clase se utiliza para dispositivos pequeños, tablets con una resolución de ≥768px, si quieres saber más da clik <a href="http://getbootstrap.com/css/#grid-options" target="blank">aquí</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+					<img src="img/cel.jpg" alt="Movil" title="Movil" class="img-responsive">
+					<h4 class="text-center">class:"col-xs-"</h4>
+					<p class="text-justify">Esta clase se utiliza para dispositivos muy pequeños, teléfonos con una resolución menor o igual que 768px si quieres saber más da clik <a href="http://getbootstrap.com/css/#grid-options" target="blank">aquí</a></p>
+				</div>
+			</div>
+		</section>
 	</div><!--container-->
 	<!--no tocar los scripts-->
 	<script src="js/jquery.min.js" ></script>
