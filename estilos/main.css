@@ -38,3 +38,7 @@ button:hover{
 .form{
 	height: 25.5em;
 }
+.trans:hover{
+	-webkit-transform: translate(-2em);
+    -webkit-transition: .8s;
+}
